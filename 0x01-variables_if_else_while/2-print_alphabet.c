@@ -1,21 +1,21 @@
 #include <stdio.h>
 /**
-*main - Program entry point
-*
-*Return: 0 on success. Error code otherwise
-*/
-
+ * main - Entry point
+ *
+ * Return: Always 0 (Success/correct)
+ */
 int main(void)
-{
-char a = Ã'a';
-int n = 0;
 
-while (n < 26)
 {
-putchar(a);
-a++;
-n++;
+char alphabet;
+
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+putchar(alphabet);
 }
+
 putchar('\n');
+
 return (0);
+
 }
